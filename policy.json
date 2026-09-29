@@ -1,0 +1,16 @@
+{
+  "model": "jev-1.13.0",
+  "destructive_tools": ["wipe_device", "bulk_update_group"],
+  "bulk_device_limit": 5,
+  "block": {
+    "injection": 0.7,
+    "mismatch_destructive": 0.5,
+    "severity": 0.85
+  },
+  "ask": {
+    "matches_ticket": 0.7,
+    "severity": 0.5,
+    "min_choice_confidence": 0.6
+  },
+  "fail_mode": "closed"
+}
