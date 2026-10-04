@@ -1,2 +1,5 @@
 typesafe-sdk
 streamlit
+fastapi
+uvicorn
+pytest
